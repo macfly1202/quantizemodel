@@ -1,0 +1,15 @@
+Edge TPU Compiler version 14.1.317412892
+Input: model_quant_20200730_07h21.tflite
+Output: ../quant_compile/model_quant_20200730_07h21_edgetpu.tflite
+
+Operator                       Count      Status
+
+AVERAGE_POOL_2D                1          Mapped to Edge TPU
+DEPTHWISE_CONV_2D              17         Mapped to Edge TPU
+FULLY_CONNECTED                2          Mapped to Edge TPU
+PAD                            5          Mapped to Edge TPU
+RESHAPE                        1          Mapped to Edge TPU
+ADD                            10         Mapped to Edge TPU
+QUANTIZE                       2          Mapped to Edge TPU
+SOFTMAX                        1          Mapped to Edge TPU
+CONV_2D                        35         Mapped to Edge TPU
